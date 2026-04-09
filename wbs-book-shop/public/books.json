@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "title": "An Elegant Puzzle",
+    "category": "Systems",
+    "description": "Will Larson's systems-thinking approach to engineering management.",
+    "rating": 4.8,
+    "price": 34.00,
+    "image": "https://m.media-amazon.com/images/I/61S7I64H0vL.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Staff Engineer",
+    "category": "Strategy",
+    "description": "The definitive guide to the technical leadership career track above Senior.",
+    "rating": 4.9,
+    "price": 28.00,
+    "image": "https://m.media-amazon.com/images/I/61y8Bv8H-+L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Manager's Path",
+    "category": "People",
+    "description": "Camille Fournier’s roadmap from IC to CTO. A must-read for new leads.",
+    "rating": 4.7,
+    "price": 25.00,
+    "image": "https://m.media-amazon.com/images/I/81S6-XidpYL.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Accelerate",
+    "category": "Systems",
+    "description": "The science of Lean Software and DevOps. Essential for data-driven delivery.",
+    "rating": 4.8,
+    "price": 22.00,
+    "image": "https://m.media-amazon.com/images/I/81M6U2fK4YL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Team Topologies",
+    "category": "Systems",
+    "description": "Organizing business and technology teams for fast flow.",
+    "rating": 4.7,
+    "price": 29.00,
+    "image": "https://m.media-amazon.com/images/I/71I9Z7-xXfL.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Resilient Management",
+    "category": "People",
+    "description": "Lara Hogan’s guide to managing humans, especially during times of change.",
+    "rating": 4.6,
+    "price": 18.00,
+    "image": "https://m.media-amazon.com/images/I/41KstS46NfL.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Phoenix Project",
+    "category": "Systems",
+    "description": "A novel about IT, DevOps, and helping your business win.",
+    "rating": 4.8,
+    "price": 19.00,
+    "image": "https://m.media-amazon.com/images/I/919kI6mU6rL.jpg"
+  },
+  {
+    "id": 8,
+    "title": "High Output Management",
+    "category": "Strategy",
+    "description": "Andy Grove's classic on the 'management is a leverage' philosophy.",
+    "rating": 4.9,
+    "price": 15.00,
+    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Radical Candor",
+    "category": "People",
+    "description": "How to be a kickass boss without losing your humanity.",
+    "rating": 4.5,
+    "price": 20.00,
+    "image": "https://m.media-amazon.com/images/I/81y6mR7M-BL.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Turn the Ship Around!",
+    "category": "People",
+    "description": "Captain David Marquet on moving from Leader-Follower to Leader-Leader.",
+    "rating": 4.8,
+    "price": 23.00,
+    "image": "https://m.media-amazon.com/images/I/81Uv5vM2Z+L.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Leading Quality",
+    "category": "Systems",
+    "description": "How to make quality a core value rather than a bottleneck.",
+    "rating": 4.4,
+    "price": 32.00,
+    "image": "https://m.media-amazon.com/images/I/81+Xp6pQ+XL.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Working Backwards",
+    "category": "Strategy",
+    "description": "Insights, stories, and secrets from inside Amazon.",
+    "rating": 4.6,
+    "price": 26.00,
+    "image": "https://m.media-amazon.com/images/I/81y5M2C2U5L.jpg"
+  },
+  {
+    "id": 13,
+    "title": "The Five Dysfunctions of a Team",
+    "category": "People",
+    "description": "A fable about the common pitfalls teams face.",
+    "rating": 4.7,
+    "price": 21.00,
+    "image": "https://m.media-amazon.com/images/I/81M6U2fK4YL.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Engineering Management for the Rest of Us",
+    "category": "People",
+    "description": "Sarah Drasner's practical guide for new managers.",
+    "rating": 4.7,
+    "price": 24.00,
+    "image": "https://m.media-amazon.com/images/I/41-iHId6V5L.jpg"
+  },
+  {
+    "id": 15,
+    "title": "The Mythical Man-Month",
+    "category": "Systems",
+    "description": "The classic on software engineering complexity.",
+    "rating": 4.5,
+    "price": 30.00,
+    "image": "https://m.media-amazon.com/images/I/51wXp69L7qL.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Kill It with Fire",
+    "category": "Systems",
+    "description": "Managing legacy systems and technical debt.",
+    "rating": 4.6,
+    "price": 27.00,
+    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Become an Effective Software Engineering Manager",
+    "category": "People",
+    "description": "James Stanier’s deep dive into the day-to-day work.",
+    "rating": 4.6,
+    "price": 35.00,
+    "image": "https://m.media-amazon.com/images/I/71I9Z7-xXfL.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Thinking in Systems",
+    "category": "Systems",
+    "description": "Donella Meadows' primer on how everything is a system.",
+    "rating": 4.8,
+    "price": 16.00,
+    "image": "https://m.media-amazon.com/images/I/71Y8+L+7C+L.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Modern Software Engineering",
+    "category": "Systems",
+    "description": "Dave Farley on the principles of a better software craft.",
+    "rating": 4.5,
+    "price": 33.00,
+    "image": "https://m.media-amazon.com/images/I/61wL9y7C+XL.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Drive",
+    "category": "People",
+    "description": "Daniel Pink on what truly motivates people (Autonomy, Mastery, Purpose).",
+    "rating": 4.6,
+    "price": 17.00,
+    "image": "https://m.media-amazon.com/images/I/81M6U2fK4YL.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Crucial Conversations",
+    "category": "People",
+    "description": "Tools for talking when stakes are high.",
+    "rating": 4.7,
+    "price": 19.00,
+    "image": "https://m.media-amazon.com/images/I/81S6-XidpYL.jpg"
+  },
+  {
+    "id": 22,
+    "title": "The Pragmatic Programmer",
+    "category": "Strategy",
+    "description": "Becoming a master craftsman and leader.",
+    "rating": 4.9,
+    "price": 40.00,
+    "image": "https://m.media-amazon.com/images/I/51WojS8+C6L.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Escaping the Build Trap",
+    "category": "Strategy",
+    "description": "How effective product management creates real value.",
+    "rating": 4.6,
+    "price": 28.00,
+    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Inspired",
+    "category": "Strategy",
+    "description": "How to create tech products customers love (Marty Cagan).",
+    "rating": 4.8,
+    "price": 25.00,
+    "image": "https://m.media-amazon.com/images/I/71I9Z7-xXfL.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Good Strategy Bad Strategy",
+    "category": "Strategy",
+    "description": "Richard Rumelt on the difference between goals and strategy.",
+    "rating": 4.7,
+    "price": 22.00,
+    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+  }
+]
