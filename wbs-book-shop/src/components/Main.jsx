@@ -1,5 +1,12 @@
+import Shop from './Shop';
+import Favourites from './Favourites';
+
 const Main = ({ selectedOption }) => {
-  return <h2>Hello Main - {selectedOption}</h2>;
+  return (
+    <main>
+      {selectedOption === 'Shop' ? <Shop /> : <Favourites />}
+    </main>
+  );
 };
 
 export default Main;
