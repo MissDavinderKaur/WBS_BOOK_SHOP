@@ -1,5 +1,5 @@
-const Main = () => {
-  return <h2>Hello Main</h2>;
+const Main = ({ selectedOption }) => {
+  return <h2>Hello Main - {selectedOption}</h2>;
 };
 
 export default Main;
