@@ -2,7 +2,20 @@ import { useState, useEffect } from 'react';
 import Book from './Book';
 
 const Favourites = () => {
-    const favourites = JSON.parse(localStorage.getItem('favourites') || '[]');
+  const [favourites, setFavourites] = useState([]);
+
+  useEffect(() => {
+    const favs = JSON.parse(localStorage.getItem('favourites') || '[]');
+    setFavourites(favs);
+
+    const handleUpdate = () => {
+      const favs = JSON.parse(localStorage.getItem('favourites') || '[]');
+      setFavourites(favs);
+    };
+
+    window.addEventListener('favouritesUpdated', handleUpdate);
+    return () => window.removeEventListener('favouritesUpdated', handleUpdate);
+  }, []);
 
   return (
     <div className="p-4">
@@ -12,7 +25,7 @@ const Favourites = () => {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {favourites.map(book => (
-            <Book key={book.id} book={book} />
+            <Book key={book.id} book={book} selectedOption="Favourites" />
           ))}
         </div>
       )}

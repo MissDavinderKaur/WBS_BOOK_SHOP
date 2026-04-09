@@ -1,12 +1,36 @@
-const Book = ({ book }) => {
+import { useState, useEffect } from 'react';
+
+const Book = ({ book, selectedOption }) => {
+  const [isFavourite, setIsFavourite] = useState(false);
+
+  useEffect(() => {
+    const favourites = JSON.parse(localStorage.getItem('favourites') || '[]');
+    setIsFavourite(favourites.some(fav => fav.id === book.id));
+  }, []);
+
   const handleHeartClick = () => {
     const favourites = JSON.parse(localStorage.getItem('favourites') || '[]');
-    const isFavourite = favourites.some(fav => fav.id === book.id);
-    if (!isFavourite) { //book is not in favourites, add it
+    if (selectedOption === 'Shop') {
+      // Toggle
+      if (isFavourite) {
+        const updatedFavourites = favourites.filter(fav => fav.id !== book.id);
+        localStorage.setItem('favourites', JSON.stringify(updatedFavourites));
+        setIsFavourite(false);
+      } else {
         favourites.push(book);
         localStorage.setItem('favourites', JSON.stringify(favourites));
-        }
-    };
+        setIsFavourite(true);
+      }
+    } else if (selectedOption === 'Favourites') {
+      // Remove
+      const updatedFavourites = favourites.filter(fav => fav.id !== book.id);
+      localStorage.setItem('favourites', JSON.stringify(updatedFavourites));
+      setIsFavourite(false);
+    }
+    window.dispatchEvent(new Event('favouritesUpdated'));
+  };
+
+  const heartSymbol = selectedOption === 'Shop' ? (isFavourite ? '❤️' : '♡') : '❤️';
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md relative">
@@ -18,8 +42,9 @@ const Book = ({ book }) => {
       <p className="text-sm font-semibold">${book.price}</p>
       <button
         className="absolute bottom-2 right-2 text-red-500 text-2xl bg-transparent border-none cursor-pointer"
-        onClick={handleHeartClick}>
-        ❤️
+        onClick={handleHeartClick}
+      >
+        {heartSymbol}
       </button>
     </div>
   );
