@@ -9,7 +9,7 @@ const Home = ({ setSelectedOption }) => {
         <h2 className="text-2xl md:text-3xl font-bold mb-6">Top 5 Books</h2>
         <ol className="list-decimal list-inside mb-6 inline-block text-left">
           {randomBooks.map((book, index) => (
-            <li key={book.id} className="text-lg mb-2">{book.title}</li>
+            <li key={book.id} className="text-lg mb-2">{book.title} <em>({book.author})</em></li>
           ))}
         </ol>
         <div className="flex justify-center">
