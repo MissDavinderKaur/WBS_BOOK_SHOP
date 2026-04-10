@@ -33,16 +33,16 @@ const Book = ({ book, selectedOption }) => {
   const heartSymbol = selectedOption === 'Shop' ? (isFavourite ? '❤️' : '♡') : '❤️';
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md relative">
+    <div className="bg-white p-4 rounded-lg shadow-md relative border-2 border-red-500">
       <div className="w-full aspect-[3/4] overflow-hidden rounded">
         <img src={book.image} alt={book.title} className="w-full h-full object-cover" />
       </div>
       <h3 className="text-lg font-bold mt-2">{book.title}</h3>
-      <p className="text-sm text-gray-500">{book.author}</p>
-      <p className="text-sm text-gray-600">{book.description}</p>
-      <p className="text-sm">Category: {book.category}</p>
-      <p className="text-sm">Rating: {book.rating}/5</p>
-      <p className="text-sm font-semibold">${book.price}</p>
+      <p className="text-sm text-gray-500 mb-1">{book.author}</p>
+      <p className="text-sm text-gray-600 mb-1">{book.description}</p>
+      <p className="text-sm mb-1">Category: {book.category}</p>
+      <p className="text-sm mb-1">Rating: {book.rating}/5</p>
+      <p className="text-sm font-semibold mb-1">${book.price}</p>
       <button
         className="absolute bottom-2 right-2 text-red-500 text-2xl bg-transparent border-none cursor-pointer"
         onClick={handleHeartClick}

@@ -18,7 +18,7 @@ const Favourites = () => {
   }, []);
 
   return (
-    <div className="p-4">
+    <div className="p-4 bg-pink-50">
       <h2 className="text-2xl font-bold mb-4">Favourites View</h2>
       {favourites.length === 0 ? (
         <p>You haven't saved any books to Favourites yet</p>
