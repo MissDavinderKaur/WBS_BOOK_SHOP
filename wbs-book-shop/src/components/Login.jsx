@@ -4,6 +4,17 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  const handleLogin = () => {
+    if (!email.trim() || !password.trim()) {
+      alert('Please fill in both email and password');
+      return;
+    }
+    localStorage.setItem('loggedIn', JSON.stringify(true));
+    localStorage.setItem('email', email);
+    setEmail('');
+    setPassword('');
+  };
+
   return (
     <div className="p-4 bg-pink-50 flex items-center justify-center min-h-screen">
       <div className="w-full max-w-md">
@@ -36,6 +47,7 @@ const Login = () => {
 
           <button
             type="button"
+            onClick={handleLogin}
             className="w-full px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
           >
             Login
