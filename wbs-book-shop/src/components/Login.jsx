@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Login = () => {
+const Login = ({ setSelectedOption }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -13,6 +13,7 @@ const Login = () => {
     localStorage.setItem('email', email);
     setEmail('');
     setPassword('');
+    setSelectedOption('Shop');
   };
 
   return (

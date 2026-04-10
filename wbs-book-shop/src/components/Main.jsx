@@ -7,7 +7,7 @@ const Main = ({ selectedOption, setSelectedOption }) => {
   if (selectedOption === 'Shop') return <Shop />;
   if (selectedOption === 'Favourites') return <Favourites />;
   if (selectedOption === 'Home') return <Home setSelectedOption={setSelectedOption} />;
-  if (selectedOption === 'Login') return <Login />;
+  if (selectedOption === 'Login') return <Login setSelectedOption={setSelectedOption} />;
   return <Home setSelectedOption={setSelectedOption} />; // default
 };
 
