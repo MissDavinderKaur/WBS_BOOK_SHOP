@@ -41,7 +41,7 @@ const Book = ({ book, selectedOption }) => {
       <p className="text-sm text-gray-500">{book.author}</p>
       <p className="text-sm text-gray-600">{book.description}</p>
       <p className="text-sm">Category: {book.category}</p>
-      <p className="text-sm">Rating: {book.rating}</p>
+      <p className="text-sm">Rating: {book.rating}/5</p>
       <p className="text-sm font-semibold">${book.price}</p>
       <button
         className="absolute bottom-2 right-2 text-red-500 text-2xl bg-transparent border-none cursor-pointer"
