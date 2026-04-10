@@ -38,6 +38,7 @@ const Book = ({ book, selectedOption }) => {
         <img src={book.image} alt={book.title} className="w-full h-full object-cover" />
       </div>
       <h3 className="text-lg font-bold mt-2">{book.title}</h3>
+      <p className="text-sm text-gray-500">{book.author}</p>
       <p className="text-sm text-gray-600">{book.description}</p>
       <p className="text-sm">Category: {book.category}</p>
       <p className="text-sm">Rating: {book.rating}</p>
