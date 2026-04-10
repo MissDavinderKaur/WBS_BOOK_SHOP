@@ -25,6 +25,13 @@ const Header = ({ setSelectedOption }) => {
     window.addEventListener('storage', handleStorageChange);
     return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('loggedIn');
+    localStorage.removeItem('email');
+    setLoggedIn(false);
+    setUserEmail('');
+  };
   return (
     <header className="flex justify-between items-center p-4 bg-gray-50 rounded-md shadow-sm">
       <div className="flex items-center gap-4">
@@ -57,9 +64,9 @@ const Header = ({ setSelectedOption }) => {
         <button
           type="button"
           className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
-          onClick={() => setSelectedOption('Login')}
+          onClick={loggedIn ? handleLogout : () => setSelectedOption('Login')}
         >
-          Login
+          {loggedIn ? 'Logout' : 'Login'}
         </button>
       </div>
     </header>
