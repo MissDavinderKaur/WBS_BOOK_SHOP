@@ -6,7 +6,7 @@
     "description": "Will Larson's systems-thinking approach to engineering management.",
     "rating": 4.8,
     "price": 34.00,
-    "image": "https://m.media-amazon.com/images/I/61S7I64H0vL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781732265189-L.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "The definitive guide to the technical leadership career track above Senior.",
     "rating": 4.9,
     "price": 28.00,
-    "image": "https://m.media-amazon.com/images/I/61y8Bv8H-+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781732265110-L.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "Camille Fournier’s roadmap from IC to CTO. A must-read for new leads.",
     "rating": 4.7,
     "price": 25.00,
-    "image": "https://m.media-amazon.com/images/I/81S6-XidpYL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781491973899-L.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "The science of Lean Software and DevOps. Essential for data-driven delivery.",
     "rating": 4.8,
     "price": 22.00,
-    "image": "https://m.media-amazon.com/images/I/81M6U2fK4YL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781942788331-L.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "description": "Organizing business and technology teams for fast flow.",
     "rating": 4.7,
     "price": 29.00,
-    "image": "https://m.media-amazon.com/images/I/71I9Z7-xXfL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781942788812-L.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "description": "Lara Hogan’s guide to managing humans, especially during times of change.",
     "rating": 4.6,
     "price": 18.00,
-    "image": "https://m.media-amazon.com/images/I/41KstS46NfL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781937557782-L.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "A novel about IT, DevOps, and helping your business win.",
     "rating": 4.8,
     "price": 19.00,
-    "image": "https://m.media-amazon.com/images/I/919kI6mU6rL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780988262591-L.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "Andy Grove's classic on the 'management is a leverage' philosophy.",
     "rating": 4.9,
     "price": 15.00,
-    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780679762881-L.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "How to be a kickass boss without losing your humanity.",
     "rating": 4.5,
     "price": 20.00,
-    "image": "https://m.media-amazon.com/images/I/81y6mR7M-BL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781250103505-L.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "Captain David Marquet on moving from Leader-Follower to Leader-Leader.",
     "rating": 4.8,
     "price": 23.00,
-    "image": "https://m.media-amazon.com/images/I/81Uv5vM2Z+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781591846192-L.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "How to make quality a core value rather than a bottleneck.",
     "rating": 4.4,
     "price": 32.00,
-    "image": "https://m.media-amazon.com/images/I/81+Xp6pQ+XL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781912960217-L.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "description": "Insights, stories, and secrets from inside Amazon.",
     "rating": 4.6,
     "price": 26.00,
-    "image": "https://m.media-amazon.com/images/I/81y5M2C2U5L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781250265135-L.jpg"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "description": "A fable about the common pitfalls teams face.",
     "rating": 4.7,
     "price": 21.00,
-    "image": "https://m.media-amazon.com/images/I/81M6U2fK4YL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780787960759-L.jpg"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "description": "Sarah Drasner's practical guide for new managers.",
     "rating": 4.7,
     "price": 24.00,
-    "image": "https://m.media-amazon.com/images/I/41-iHId6V5L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781954546875-L.jpg"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "description": "The classic on software engineering complexity.",
     "rating": 4.5,
     "price": 30.00,
-    "image": "https://m.media-amazon.com/images/I/51wXp69L7qL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "description": "Managing legacy systems and technical debt.",
     "rating": 4.6,
     "price": 27.00,
-    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781718501188-L.jpg"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "description": "James Stanier’s deep dive into the day-to-day work.",
     "rating": 4.6,
     "price": 35.00,
-    "image": "https://m.media-amazon.com/images/I/71I9Z7-xXfL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781680507249-L.jpg"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "description": "Donella Meadows' primer on how everything is a system.",
     "rating": 4.8,
     "price": 16.00,
-    "image": "https://m.media-amazon.com/images/I/71Y8+L+7C+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781603580557-L.jpg"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "description": "Dave Farley on the principles of a better software craft.",
     "rating": 4.5,
     "price": 33.00,
-    "image": "https://m.media-amazon.com/images/I/61wL9y7C+XL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780137314546-L.jpg"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "description": "Daniel Pink on what truly motivates people (Autonomy, Mastery, Purpose).",
     "rating": 4.6,
     "price": 17.00,
-    "image": "https://m.media-amazon.com/images/I/81M6U2fK4YL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781594488849-L.jpg"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "description": "Tools for talking when stakes are high.",
     "rating": 4.7,
     "price": 19.00,
-    "image": "https://m.media-amazon.com/images/I/81S6-XidpYL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780071401944-L.jpg"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "description": "Becoming a master craftsman and leader.",
     "rating": 4.9,
     "price": 40.00,
-    "image": "https://m.media-amazon.com/images/I/51WojS8+C6L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "description": "How effective product management creates real value.",
     "rating": 4.6,
     "price": 28.00,
-    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781491973790-L.jpg"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "description": "How to create tech products customers love (Marty Cagan).",
     "rating": 4.8,
     "price": 25.00,
-    "image": "https://m.media-amazon.com/images/I/71I9Z7-xXfL.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9781119387503-L.jpg"
   },
   {
     "id": 25,
@@ -222,6 +222,6 @@
     "description": "Richard Rumelt on the difference between goals and strategy.",
     "rating": 4.7,
     "price": 22.00,
-    "image": "https://m.media-amazon.com/images/I/81fH+S+rC+L.jpg"
+    "image": "https://covers.openlibrary.org/b/isbn/9780307886231-L.jpg"
   }
 ]
