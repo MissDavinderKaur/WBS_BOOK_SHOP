@@ -4,7 +4,7 @@ const Header = ({ setSelectedOption }) => {
       <button
         type="button"
         className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
-        onClick={() => setSelectedOption('Shop')} // Assuming Home goes to Shop
+        onClick={() => setSelectedOption('Home')} 
       >
         Home
       </button>

@@ -1,12 +1,12 @@
 import Shop from './Shop';
 import Favourites from './Favourites';
+import Home from './Home';
 
-const Main = ({ selectedOption }) => {
-  return (
-    <main>
-      {selectedOption === 'Shop' ? <Shop /> : <Favourites />}
-    </main>
-  );
+const Main = ({ selectedOption, setSelectedOption }) => {
+  if (selectedOption === 'Shop') return <Shop />;
+  if (selectedOption === 'Favourites') return <Favourites />;
+  if (selectedOption === 'Home') return <Home setSelectedOption={setSelectedOption} />;
+  return <Home />; // default
 };
 
 export default Main;
