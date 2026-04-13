@@ -1,3 +1,5 @@
+// Individual book card
+
 import { useState, useEffect } from 'react';
 
 const Book = ({ book, selectedOption }) => {

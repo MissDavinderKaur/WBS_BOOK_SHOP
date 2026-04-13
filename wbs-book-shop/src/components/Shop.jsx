@@ -1,3 +1,5 @@
+// Browse all books
+
 import books from '../../public/books.json';
 import Book from './Book';
 

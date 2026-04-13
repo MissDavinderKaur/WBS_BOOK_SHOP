@@ -1,3 +1,5 @@
+// Display top 5 Books
+
 import books from '../../public/books.json';
 
 const Home = ({ setSelectedOption }) => {

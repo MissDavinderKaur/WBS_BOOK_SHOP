@@ -1,3 +1,5 @@
+// Route component for page switching
+
 import Shop from './Shop';
 import Favourites from './Favourites';
 import Home from './Home';

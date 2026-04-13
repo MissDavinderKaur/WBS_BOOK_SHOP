@@ -1,3 +1,5 @@
+// Display "Favorite" books
+
 import { useState, useEffect } from 'react';
 import Book from './Book';
 
