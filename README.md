@@ -5,7 +5,7 @@ A modern, responsive React web application for browsing and managing a collectio
 ## Features
 
 - **Home Page**: Displays a randomly selected list of Top 5 Books
-- **Shop**: Browse all available books in a responsive grid layout
+- **Shop**: Browse, search and filter all available books in a responsive grid layout
 - **Favourites**: Save and manage your favorite books (stored in localStorage)
 - **User Authentication**: Sign up/login functionality with email and password validation
 
@@ -38,7 +38,6 @@ npm run dev
 
 - Backend API integration for book data
 - User accounts with backend authentication
-- Search and filter functionality
 - Book detail pages
 - User reviews and ratings
 - Shopping cart functionality
