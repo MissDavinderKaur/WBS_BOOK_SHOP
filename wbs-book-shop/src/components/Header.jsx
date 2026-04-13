@@ -30,7 +30,7 @@ const Header = ({ setSelectedOption }) => {
       window.removeEventListener('storage', handleStorageChange);
       window.removeEventListener('loginStatusChanged', checkLoginStatus);
     };
-  });
+  }); //TODO: add [loggedIn OR isLoggedIn] dependency to only check when login status changes
 
   const handleLogout = () => {
     localStorage.removeItem('loggedIn');
