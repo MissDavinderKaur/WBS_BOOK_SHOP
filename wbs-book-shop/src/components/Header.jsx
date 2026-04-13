@@ -4,14 +4,14 @@ const Header = ({ setSelectedOption }) => {
   const [loggedIn, setLoggedIn] = useState(false);
   const [userEmail, setUserEmail] = useState('');
 
-  useEffect(() => {
-    const checkLoginStatus = () => {
-      const isLoggedIn = JSON.parse(localStorage.getItem('loggedIn') || 'false');
-      const storedEmail = localStorage.getItem('email') || '';
-      setLoggedIn(isLoggedIn);
-      setUserEmail(storedEmail);
-    };
+  const checkLoginStatus = () => {
+    const isLoggedIn = JSON.parse(localStorage.getItem('loggedIn') || 'false');
+    const storedEmail = localStorage.getItem('email') || '';
+    setLoggedIn(isLoggedIn);
+    setUserEmail(storedEmail);
+  };
 
+  useEffect(() => {
     // Check on mount
     checkLoginStatus();
 
@@ -23,8 +23,12 @@ const Header = ({ setSelectedOption }) => {
     };
 
     window.addEventListener('storage', handleStorageChange);
-    return () => window.removeEventListener('storage', handleStorageChange);
-  }, []);
+    window.addEventListener('loginStatusChanged', checkLoginStatus);
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('loginStatusChanged', checkLoginStatus);
+    };
+  });
 
   const handleLogout = () => {
     localStorage.removeItem('loggedIn');
@@ -32,6 +36,7 @@ const Header = ({ setSelectedOption }) => {
     setLoggedIn(false);
     setUserEmail('');
   };
+
   return (
     <header className="flex justify-between items-center p-4 bg-gray-50 rounded-md shadow-sm">
       <div className="flex items-center gap-4">
