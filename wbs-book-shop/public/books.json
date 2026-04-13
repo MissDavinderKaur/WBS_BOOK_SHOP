@@ -4,7 +4,7 @@
     "title": "An Elegant Puzzle",
     "author": "Will Larson",
     "category": "Systems",
-    "description": "Will Larson's systems-thinking approach to engineering management.",
+    "description": "A systems-thinking approach to engineering management.",
     "rating": 4.8,
     "price": 34.00,
     "image": "https://covers.openlibrary.org/b/isbn/9781732265189-L.jpg"
@@ -24,7 +24,7 @@
     "title": "The Manager's Path",
     "author": "Camille Fournier",
     "category": "People",
-    "description": "Camille Fournier’s roadmap from IC to CTO. A must-read for new leads.",
+    "description": "The roadmap from IC to CTO. A must-read for new leads.",
     "rating": 4.7,
     "price": 25.00,
     "image": "https://covers.openlibrary.org/b/isbn/9781491973899-L.jpg"
@@ -54,7 +54,7 @@
     "title": "Resilient Management",
     "author": "Lara Hogan",
     "category": "People",
-    "description": "Lara Hogan’s guide to managing humans, especially during times of change.",
+    "description": "The guide to managing humans, especially during times of change.",
     "rating": 4.6,
     "price": 18.00,
     "image": "https://covers.openlibrary.org/b/id/11270402-L.jpg"
@@ -74,7 +74,7 @@
     "title": "High Output Management",
     "author": "Andrew Grove",
     "category": "Strategy",
-    "description": "Andy Grove's classic on the 'management is a leverage' philosophy.",
+    "description": "Classic on the 'management is a leverage' philosophy.",
     "rating": 4.9,
     "price": 15.00,
     "image": "https://covers.openlibrary.org/b/isbn/9780679762881-L.jpg"
@@ -94,7 +94,7 @@
     "title": "Turn the Ship Around!",
     "author": "L. David Marquet",
     "category": "People",
-    "description": "Captain David Marquet on moving from Leader-Follower to Leader-Leader.",
+    "description": "How to move from Leader-Follower to Leader-Leader.",
     "rating": 4.8,
     "price": 23.00,
     "image": "https://covers.openlibrary.org/b/isbn/9781591846192-L.jpg"
@@ -134,7 +134,7 @@
     "title": "Engineering Management for the Rest of Us",
     "author": "Sarah Drasner",
     "category": "People",
-    "description": "Sarah Drasner's practical guide for new managers.",
+    "description": "A practical guide for new managers.",
     "rating": 4.7,
     "price": 24.00,
     "image": "https://covers.openlibrary.org/b/id/14566623-L.jpg"
@@ -164,7 +164,7 @@
     "title": "Become an Effective Software Engineering Manager",
     "author": "James Stanier",
     "category": "People",
-    "description": "James Stanier’s deep dive into the day-to-day work.",
+    "description": "A deep dive into the day-to-day work.",
     "rating": 4.6,
     "price": 35.00,
     "image": "https://covers.openlibrary.org/b/isbn/9781680507249-L.jpg"
@@ -174,7 +174,7 @@
     "title": "Thinking in Systems",
     "author": "Donella Meadows",
     "category": "Systems",
-    "description": "Donella Meadows' primer on how everything is a system.",
+    "description": "A primer on how everything is a system.",
     "rating": 4.8,
     "price": 16.00,
     "image": "https://covers.openlibrary.org/b/isbn/9781603580557-L.jpg"
@@ -184,7 +184,7 @@
     "title": "Modern Software Engineering",
     "author": "Dave Farley",
     "category": "Systems",
-    "description": "Dave Farley on the principles of a better software craft.",
+    "description": "The principles of a better software craft.",
     "rating": 4.5,
     "price": 33.00,
     "image": "https://covers.openlibrary.org/b/id/13627918-L.jpg"
@@ -194,7 +194,7 @@
     "title": "Drive",
     "author": "Daniel Pink",
     "category": "People",
-    "description": "Daniel Pink on what truly motivates people (Autonomy, Mastery, Purpose).",
+    "description": "What truly motivates people (Autonomy, Mastery, Purpose).",
     "rating": 4.6,
     "price": 17.00,
     "image": "https://covers.openlibrary.org/b/isbn/9781594488849-L.jpg"
@@ -244,7 +244,7 @@
     "title": "Good Strategy Bad Strategy",
     "author": "Richard Rumelt",
     "category": "Strategy",
-    "description": "Richard Rumelt on the difference between goals and strategy.",
+    "description": "The difference between goals and strategy.",
     "rating": 4.7,
     "price": 22.00,
     "image": "https://covers.openlibrary.org/b/isbn/9780307886231-L.jpg"

@@ -41,8 +41,7 @@ const Book = ({ book, selectedOption }) => {
       </div>
       <h3 className="text-lg font-bold mt-2">{book.title}</h3>
       <p className="text-sm text-gray-500 mb-1">{book.author}</p>
-      <p className="text-sm text-gray-600 mb-1">{book.description}</p>
-      <p className="text-sm mb-1">Category: {book.category}</p>
+      <p className="text-sm text-gray-600 mb-1"><em>{book.description}</em></p>
       <p className="text-sm mb-1">Rating: {book.rating}/5</p>
       <p className="text-sm font-semibold mb-1">${book.price}</p>
       <button

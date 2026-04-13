@@ -1,37 +1,37 @@
 // Browse all books
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import books from '../../public/books.json';
 import Book from './Book';
 
 const Shop = () => {
   const [searchInput, setSearchInput] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('');
   const [filteredBooks, setFilteredBooks] = useState(books);
 
-  const handleSearch = () => {
-    if (searchInput.trim() === '') {
-      setFilteredBooks(books);
-    } else {
-      const filtered = books.filter(book => {
-        const searchLower = searchInput.toLowerCase();
-        return (
-          book.title.toLowerCase().includes(searchLower) ||
-          book.author.toLowerCase().includes(searchLower) ||
-          book.description.toLowerCase().includes(searchLower)
-        );
-      });
-      setFilteredBooks(filtered);
+  useEffect(() => {
+    let filtered = books;
+
+    // Filter by search input
+    if (searchInput.trim() !== '') {
+      const searchLower = searchInput.toLowerCase();
+      filtered = filtered.filter(book =>
+        book.title.toLowerCase().includes(searchLower) ||
+        book.author.toLowerCase().includes(searchLower) ||
+        book.description.toLowerCase().includes(searchLower)
+      );
     }
-  };
+
+    // Filter by category
+    if (selectedCategory !== '') {
+      filtered = filtered.filter(book => book.category === selectedCategory);
+    }
+
+    setFilteredBooks(filtered);
+  }, [searchInput, selectedCategory]);
 
   const handleInputChange = (e) => {
-    const value = e.target.value;
-    setSearchInput(value);
-    
-    // If input is cleared, show all books
-    if (value.trim() === '') {
-      setFilteredBooks(books);
-    }
+    setSearchInput(e.target.value);
   };
 
   return (
@@ -47,11 +47,41 @@ const Shop = () => {
           />
           <button 
             className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
-            onClick={handleSearch}
+            onClick={() => {}} // Search is now automatic
           >
             Search
           </button>
         </div>
+      </div>
+      <div className="mb-4 flex justify-center gap-4">
+        <button
+          type="button"
+          className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
+          onClick={() => setSelectedCategory('Strategy')}
+        >
+          Strategy
+        </button>
+        <button
+          type="button"
+          className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
+          onClick={() => setSelectedCategory('Systems')}
+        >
+          Systems
+        </button>
+        <button
+          type="button"
+          className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
+          onClick={() => setSelectedCategory('People')}
+        >
+          People
+        </button>
+        <button
+          type="button"
+          className="px-4 py-2 rounded-lg border-2 border-red-500 text-red-500 bg-transparent font-semibold hover:bg-red-500 hover:text-white transition-colors"
+          onClick={() => { setSelectedCategory(''); setSearchInput(''); }}
+        >
+          All
+        </button>
       </div>
       {filteredBooks.length === 0 ? (
         <div className="text-center py-12">
